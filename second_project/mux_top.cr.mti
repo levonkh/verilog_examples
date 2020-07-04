@@ -1,0 +1,29 @@
+C:/Users/levon/Documents/verilog/second_project/andmuxor_top.sv {1 {vlog -work work -sv -stats=none C:/Users/levon/Documents/verilog/second_project/andmuxor_top.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module andmuxor_top
+
+Top level modules:
+	andmuxor_top
+
+} {} {}} C:/Users/levon/Documents/verilog/second_project/mux_top.sv {1 {vlog -work work -sv -stats=none C:/Users/levon/Documents/verilog/second_project/mux_top.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module muxtop
+
+Top level modules:
+	muxtop
+
+} {} {}} C:/Users/levon/Documents/verilog/second_project/D_mux.sv {1 {vlog -work work -sv -stats=none C:/Users/levon/Documents/verilog/second_project/D_mux.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Dmux
+
+Top level modules:
+	Dmux
+
+} {} {}} C:/Users/levon/Documents/verilog/second_project/D_mux_top.sv {1 {vlog -work work -sv -stats=none C:/Users/levon/Documents/verilog/second_project/D_mux_top.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module muxtop
+
+Top level modules:
+	muxtop
+
+} {} {}}

@@ -1,0 +1,36 @@
+module muxtop ;
+
+  reg in_r;
+  reg sel_r;
+
+  wire aw;
+  wire bw;
+
+  mux inst1 (.in(in_r),.sel(sel_r),.a(aw),.b(bw));
+
+  initial begin
+
+    #10; 
+    in_r <= 0;
+    sel_r <= 0;
+
+    #10; 
+    in_r <= 1;
+    sel_r <= 0;
+ 
+    #10; 
+    in_r <= 0;
+    sel_r <= 1; 
+
+    #10; 
+    in_r <= 1;
+    sel_r <= 1;
+
+///////////////
+    
+    #10;
+
+   //$finish();
+  end
+
+endmodule 
