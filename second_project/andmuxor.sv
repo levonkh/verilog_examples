@@ -15,4 +15,6 @@ module andmuxor (a,b,sel,o1);
 
   mux_code instl (.a(w1),.b(w2),.sel(sel),.o1(o1));
 
+ 
+
 endmodule
