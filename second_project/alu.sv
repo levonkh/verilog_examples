@@ -10,7 +10,7 @@ module alu (x, y, zx, nx, zy, ny, f, no, out, zr, ng);
   input no;
 
 
-  output [15:0] out;
+  output signed [15:0] out;
   output zr;
   output ng;
   
